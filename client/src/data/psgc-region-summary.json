@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "dataset": "Philippine Standard Geographic Code (PSGC)",
+    "edition": "Third Quarter 2026",
+    "asOf": "2026-09-30",
+    "published": "2026-10-12",
+    "lastVerified": "2026-11-09",
+    "sourceWorkbookName": "PSGC-3Q-2026-Publication-Datafile.xlsx",
+    "sourceWorkbookUrl": "https://psa.gov.ph/system/files/scd/PSGC-3Q-2026-Publication-Datafile.xlsx",
+    "sourcePageUrl": "https://psa.gov.ph/classification/psgc",
+    "releaseNotesUrl": "https://psa.gov.ph/classification/psgc/node/1684084314",
+    "publicationsPageUrl": "https://psa.gov.ph/classification/psgc/barangays",
+    "codeFormat": "PSGC codes are 10-character numeric identifiers stored as strings; leading zeroes are significant.",
+    "scopeNote": "Counts describe PSA source-level rows, not RECOVPH operations. Special grouping records and Manila SubMun records are reported separately from province, city, municipality, and barangay totals.",
+    "counts": {
+      "regions": 18,
+      "provinces": 82,
+      "cities": 149,
+      "highlyUrbanizedCities": 33,
+      "independentComponentCities": 5,
+      "componentCities": 111,
+      "municipalities": 1493,
+      "barangays": 42010,
+      "manilaSubMunicipalities": 14,
+      "specialGroupings": 2
+    }
+  },
+  "regions": [
+    {
+      "code": "1300000000",
+      "name": "National Capital Region (NCR)",
+      "introduction": "NCR has no province-level records in this PSGC release; its cities and Pateros appear directly under the region.",
+      "counts": {
+        "provinces": 0,
+        "cities": 16,
+        "municipalities": 1,
+        "barangays": 1715,
+        "subMunicipalities": 14,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "1400000000",
+      "name": "Cordillera Administrative Region (CAR)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 6,
+        "cities": 2,
+        "municipalities": 75,
+        "barangays": 1178,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "0100000000",
+      "name": "Region I (Ilocos Region)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 4,
+        "cities": 9,
+        "municipalities": 116,
+        "barangays": 3267,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "0200000000",
+      "name": "Region II (Cagayan Valley)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 5,
+        "cities": 4,
+        "municipalities": 89,
+        "barangays": 2311,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "0300000000",
+      "name": "Region III (Central Luzon)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 7,
+        "cities": 15,
+        "municipalities": 115,
+        "barangays": 3105,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "0400000000",
+      "name": "Region IV-A (CALABARZON)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 5,
+        "cities": 22,
+        "municipalities": 120,
+        "barangays": 3992,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "1700000000",
+      "name": "MIMAROPA Region",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 5,
+        "cities": 2,
+        "municipalities": 71,
+        "barangays": 1460,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "0500000000",
+      "name": "Region V (Bicol Region)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 6,
+        "cities": 7,
+        "municipalities": 107,
+        "barangays": 3471,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "0600000000",
+      "name": "Region VI (Western Visayas)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 5,
+        "cities": 3,
+        "municipalities": 98,
+        "barangays": 3389,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "1800000000",
+      "name": "Negros Island Region (NIR)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 3,
+        "cities": 19,
+        "municipalities": 44,
+        "barangays": 1353,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "0700000000",
+      "name": "Region VII (Central Visayas)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 2,
+        "cities": 10,
+        "municipalities": 91,
+        "barangays": 2312,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "0800000000",
+      "name": "Region VIII (Eastern Visayas)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 6,
+        "cities": 7,
+        "municipalities": 136,
+        "barangays": 4365,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "0900000000",
+      "name": "Region IX (Zamboanga Peninsula)",
+      "introduction": "The PSA places Isabela City in Region IX through a special province-code grouping, shown separately from the Province list.",
+      "counts": {
+        "provinces": 4,
+        "cities": 5,
+        "municipalities": 86,
+        "barangays": 2314,
+        "subMunicipalities": 0,
+        "specialGroupings": 1
+      }
+    },
+    {
+      "code": "1000000000",
+      "name": "Region X (Northern Mindanao)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 5,
+        "cities": 9,
+        "municipalities": 84,
+        "barangays": 2022,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "1100000000",
+      "name": "Region XI (Davao Region)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 5,
+        "cities": 6,
+        "municipalities": 43,
+        "barangays": 1162,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "1200000000",
+      "name": "Region XII (SOCCSKSARGEN)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 4,
+        "cities": 4,
+        "municipalities": 45,
+        "barangays": 1097,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "1600000000",
+      "name": "Region XIII (Caraga)",
+      "introduction": "An official Philippine administrative region in the PSA’s PSGC. Browse its source-listed provinces and directly assigned locations below.",
+      "counts": {
+        "provinces": 5,
+        "cities": 6,
+        "municipalities": 67,
+        "barangays": 1312,
+        "subMunicipalities": 0,
+        "specialGroupings": 0
+      }
+    },
+    {
+      "code": "1900000000",
+      "name": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+      "introduction": "The BARMM hierarchy includes the separately coded Special Geographic Area, represented as a grouping rather than as a province.",
+      "counts": {
+        "provinces": 5,
+        "cities": 3,
+        "municipalities": 105,
+        "barangays": 2185,
+        "subMunicipalities": 0,
+        "specialGroupings": 1
+      }
+    }
+  ]
+}
